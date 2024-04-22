@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.home {
+    background-image: url("./HomeSection/building.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 538px;
+
+
+}
+
+.navbar-nav {
+
+    width: 100%;
+
+
+    justify-content: space-between;
+
+}
+
+.navbar-nav li {
+    font-weight: bold;
+    /* font-size: large; */
+}
+
+.Roofing {
+    height: 20rem;
+    /* flex-direction: column; */
+}
+
+.Recent-Projects {
+    height: 13.7rem;
+
+}
+
+.nav-link:hover {
+    background-color: rgba(120, 113, 113, 0.1);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.Aspect{
+    background-color: black;
+}
+
+
+
+@media (max-width: 768px) {
+    .yes {
+        border: none !important;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .yes {
+        border-left: 1px solid red;
+
+    }
+}
+.experience{
+    background-image: url("./CustomerExperience/building.jpg");
+    /* height: 480px; */
+    background-repeat: no-repeat;
+  
+    background-size: cover ;
+  
+}
